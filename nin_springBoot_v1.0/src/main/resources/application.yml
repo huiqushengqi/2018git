@@ -1,0 +1,162 @@
+# 日志配置
+logging:
+    config: classpath:logback.xml
+    path: d:/logs
+
+# 配置mybatis
+mybatis:
+    mapperLocations: classpath:cn/netinnet/nna/dao/mapper/*.xml
+    configLocation: classpath:mybatis-config.xml
+    typeAliasesPackage: cn.netinnet.nna.domain
+
+spring:
+    # 配置redis
+    session:
+      store-type: redis
+    reids:
+        host: localhost
+        port: 6379
+        timeout: 3600
+    http:
+        encoding:
+             force: true
+             charset: utf-8
+             enabled: true
+    resources:
+        add-mappings: true
+        static-locations: classpath:/templates/
+                           ,classpath:/META-INF/resources/
+                           ,classpath:/resources/
+                           ,classpath:/static/
+                           ,classpath:/public/
+    # 单数据源
+    datasource:
+        dev:
+            name: test
+            url: jdbc:mysql://localhost:3306/spring?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true
+            username: root
+            password: root
+            # 使用druid数据源
+            type: com.alibaba.druid.pool.DruidDataSource
+            driverClassName: com.mysql.jdbc.Driver
+            filters: stat
+            maxActive: 20
+            initialSize: 1
+            maxWait: 60000
+            minIdle: 1
+            timeBetweenEvictionRunsMillis: 60000
+            minEvictableIdleTimeMillis: 300000
+            validationQuery: select 'x'
+            testWhileIdle: true
+            testOnBorrow: false
+            testOnReturn: false
+            poolPreparedStatements: true
+            maxOpenPreparedStatements: 20
+# 配置数据库信息
+# 需要配置主从分离时配置。
+mysql:
+    datasource:
+        readSize: 2  #读库个数
+        # 使用druid数据源
+        type: com.alibaba.druid.pool.DruidDataSource
+        mapperLocations: classpath:cn/netinnet/nna/dao/mapper/*.xml
+        configLocation: classpath:mybatis-config.xml
+        write:
+            name: write
+            url: jdbc:mysql://localhost:3306/test_write?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true
+            username: root
+            password: root
+            driverClassName: com.mysql.jdbc.Driver
+            minIdle: 5
+            maxActive: 100
+            initialSize: 10
+            maxWait: 60000
+            timeBetweenEvictionRunsMillis: 60000
+            minEvictableIdleTimeMillis: 300000
+            validationQuery: select 'x'
+            testWhileIdle: true
+            testOnBorrow: false
+            testOnReturn: false
+            poolPreparedStatements: true
+            maxPoolPreparedStatementPerConnectionSize: 50
+            removeAbandoned: true
+            filters: stat
+        read01:
+            name: prod
+            url: jdbc:mysql://localhost:3306/test_read01?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true
+            username: root
+            password: root
+            driverClassName: com.mysql.jdbc.Driver
+            minIdle: 5
+            maxActive: 100
+            initialSize: 10
+            maxWait: 60000
+            timeBetweenEvictionRunsMillis: 60000
+            minEvictableIdleTimeMillis: 300000
+            validationQuery: select 'x'
+            testWhileIdle: true
+            testOnBorrow: false
+            testOnReturn: false
+            poolPreparedStatements: true
+            maxPoolPreparedStatementPerConnectionSize: 50
+            removeAbandoned: true
+            filters: stat
+        read02:
+            name: prod
+            url: jdbc:mysql://localhost:3306/test_read02?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true
+            username: root
+            password: root
+            driverClassName: com.mysql.jdbc.Driver
+            minIdle: 5
+            maxActive: 100
+            initialSize: 10
+            maxWait: 60000
+            timeBetweenEvictionRunsMillis: 60000
+            minEvictableIdleTimeMillis: 300000
+            validationQuery: select 'x'
+            testWhileIdle: true
+            testOnBorrow: false
+            testOnReturn: false
+            poolPreparedStatements: true
+            maxPoolPreparedStatementPerConnectionSize: 50
+            removeAbandoned: true
+            filters: stat
+# 配置Tomcat
+# 配置Tomcat编码,默认为UTF-8
+server:
+    tomcat:
+        uri-encoding: UTF-8
+        # 配置最大线程数
+        max-threads: 1000
+    # 配置程序端口，默认为8080
+    port: 8080
+    # 用户session过期时间，以秒为单位
+    session:
+        timeout: 3600
+    # 设置项目名
+    context-path: /mySpringBoot
+
+# 配置连接用户中心
+api:
+    99cj:
+        url: http://portal.auth.com/sso/jf
+        route: /auth/index?cmd=ucAuth
+        route2: /api/index?cmd=ucAuth
+#        key: {99cj}!@#$*&^%|pk|(auth)
+
+# 配置httpClient连接参数
+http:
+    # 最大连接数
+    maxTotal: 100
+    # 并发数
+    defaultMaxPerRoute: 20
+    # 创建连接的最长时间
+    connectTimeout: 1000
+    # 从连接池中获取到连接的最长时间
+    connectionRequestTimeout: 500
+    # 数据传输的最长时间
+    socketTimeout: 10000
+    # 提交请求前测试连接是否可用
+    staleConnectionCheckEnabled: true
+
+

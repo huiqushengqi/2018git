@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+ <!DOCTYPE generatorConfiguration
+    PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+    "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<!-- 配置Run As Maven build : Goals 参数 : mybatis-generator:generate -Dmybatis.generator.overwrite=true -->
+<!-- 配置 tableName,使用 Run As Maven build 生成 dao model 层 -->
+<generatorConfiguration>
+    <!-- 配置文件路径 -->
+    <properties url="${mybatis.generator.generatorConfig.properties}" />
+
+    <!-- 配置数据库驱动 -->
+    <!--<classPathEntry location="${drive.class.path}" />-->
+
+    <!-- 配置生成信息 -->
+    <!-- The content of element type "context" must match "(property*,plugin*,commentGenerator?,
+                    (connectionFactory|jdbcConnection),javaTypeResolver?,javaModelGenerator,
+                    sqlMapGenerator?,javaClientGenerator?,table+)". -->
+    <context id="mysqlTables" targetRuntime="MyBatis3">
+        <!-- 防止部分IDE，在进行代码生成器过程中，自定义注释部分 中文乱码 -->
+        <property name="javaFileEncoding" value="UTF-8" />
+
+        <!--关闭注释 -->
+        <commentGenerator>
+            <property name="suppressDate" value="true" />
+            <property name="suppressAllComments" value="true" />
+        </commentGenerator>
+
+        <!--数据库连接信息 -->
+        <jdbcConnection driverClass="${jdbc.driver}" connectionURL="${jdbc.url}"
+                userId="${jdbc.username}" password="${jdbc.password}">
+            <!-- 针对mysql数据库 -->
+            <property name="useInformationSchema" value="true"></property>
+        </jdbcConnection>
+
+        <javaTypeResolver>
+            <property name="forceBigDecimals" value="false" />
+        </javaTypeResolver>
+
+        <!-- 生成model模型包路径 -->
+        <javaModelGenerator targetPackage="${entity.package}"
+            targetProject="${target.path1}">
+            <property name="enableSubPackages" value="true" />
+            <property name="trimStrings" value="true" />
+        </javaModelGenerator>
+
+        <!-- 生成映射文件包路径 -->
+        <sqlMapGenerator targetPackage="${xml.mapper.package}"
+            targetProject="${target.path2}">
+            <property name="enableSubPackages" value="true" />
+        </sqlMapGenerator>
+
+        <!-- 生成dao包名路径 -->
+        <javaClientGenerator type="XMLMAPPER"
+            targetPackage="${dao.package}" targetProject="${target.path1}">
+            <property name="enableSubPackages" value="true" />
+        </javaClientGenerator>
+
+        <!--对应数据库表名 -->
+        <!-- 要生成的表 tableName是数据库中的表名或视图名 domainObjectName是实体类名 -->
+        <table tableName="demo_info" domainObjectName="DemoInfo"
+            enableCountByExample="false" enableSelectByExample="false"
+            enableUpdateByExample="false" enableDeleteByExample="false" selectByExampleQueryId="false">
+        </table>
+    </context>
+</generatorConfiguration>

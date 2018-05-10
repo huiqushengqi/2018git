@@ -1,0 +1,651 @@
+09:10:03.434 logback [main] ERROR o.s.boot.SpringApplication - Application startup failed
+java.lang.IllegalStateException: Failed to load property source from location 'classpath:/application.yml'
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.loadIntoGroup(ConfigFileApplicationListener.java:465)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:454)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:375)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.addPropertySources(ConfigFileApplicationListener.java:214)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.postProcessEnvironment(ConfigFileApplicationListener.java:184)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.onApplicationEnvironmentPreparedEvent(ConfigFileApplicationListener.java:171)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.onApplicationEvent(ConfigFileApplicationListener.java:157)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:167)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:122)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:74)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:325)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:296)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at cn.netinnet.nna.Application.main(Application.java:34)
+	at sun.reflect.GeneratedMethodAccessor192.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.boot.maven.AbstractRunMojo$LaunchRunner.run(AbstractRunMojo.java:527)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.yaml.snakeyaml.scanner.ScannerException: while scanning a tag
+ in 'reader', line 144, column 20:
+            key: {99cj}!@#$*&^%|pk|(auth)
+                       ^
+expected ' ', but found '#' (35)
+ in 'reader', line 144, column 22:
+            key: {99cj}!@#$*&^%|pk|(auth)
+                         ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.scanTag(ScannerImpl.java:1550)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchTag(ScannerImpl.java:956)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:374)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:226)
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:557)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:157)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:147)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:224)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:155)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:246)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:237)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:225)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:155)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:246)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:237)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:225)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:155)
+	at org.yaml.snakeyaml.composer.Composer.composeDocument(Composer.java:122)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:84)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getData(BaseConstructor.java:104)
+	at org.yaml.snakeyaml.Yaml$1.next(Yaml.java:471)
+	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:160)
+	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:138)
+	at org.springframework.boot.env.YamlPropertySourceLoader$Processor.process(YamlPropertySourceLoader.java:101)
+	at org.springframework.boot.env.YamlPropertySourceLoader.load(YamlPropertySourceLoader.java:58)
+	at org.springframework.boot.env.PropertySourcesLoader.load(PropertySourcesLoader.java:127)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.doLoadIntoGroup(ConfigFileApplicationListener.java:479)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.loadIntoGroup(ConfigFileApplicationListener.java:462)
+	... 21 common frames omitted
+09:11:45.039 logback [main] ERROR o.s.boot.SpringApplication - Application startup failed
+java.lang.IllegalStateException: Failed to load property source from location 'classpath:/application.yml'
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.loadIntoGroup(ConfigFileApplicationListener.java:465)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:454)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:375)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.addPropertySources(ConfigFileApplicationListener.java:214)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.postProcessEnvironment(ConfigFileApplicationListener.java:184)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.onApplicationEnvironmentPreparedEvent(ConfigFileApplicationListener.java:171)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.onApplicationEvent(ConfigFileApplicationListener.java:157)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:167)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:122)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:74)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:325)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:296)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at cn.netinnet.nna.Application.main(Application.java:34)
+	at sun.reflect.GeneratedMethodAccessor192.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.boot.maven.AbstractRunMojo$LaunchRunner.run(AbstractRunMojo.java:527)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.yaml.snakeyaml.scanner.ScannerException: while scanning a tag
+ in 'reader', line 144, column 20:
+            key: {99cj}!@#$*&^%|pk|(auth)
+                       ^
+expected ' ', but found '#' (35)
+ in 'reader', line 144, column 22:
+            key: {99cj}!@#$*&^%|pk|(auth)
+                         ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.scanTag(ScannerImpl.java:1550)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchTag(ScannerImpl.java:956)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:374)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:226)
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:557)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:157)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:147)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:224)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:155)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:246)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:237)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:225)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:155)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:246)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:237)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:225)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:155)
+	at org.yaml.snakeyaml.composer.Composer.composeDocument(Composer.java:122)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:84)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getData(BaseConstructor.java:104)
+	at org.yaml.snakeyaml.Yaml$1.next(Yaml.java:471)
+	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:160)
+	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:138)
+	at org.springframework.boot.env.YamlPropertySourceLoader$Processor.process(YamlPropertySourceLoader.java:101)
+	at org.springframework.boot.env.YamlPropertySourceLoader.load(YamlPropertySourceLoader.java:58)
+	at org.springframework.boot.env.PropertySourcesLoader.load(PropertySourcesLoader.java:127)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.doLoadIntoGroup(ConfigFileApplicationListener.java:479)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.loadIntoGroup(ConfigFileApplicationListener.java:462)
+	... 21 common frames omitted
+09:13:21.549 logback [main] ERROR o.s.boot.SpringApplication - Application startup failed
+java.lang.IllegalStateException: Failed to load property source from location 'classpath:/application.yml'
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.loadIntoGroup(ConfigFileApplicationListener.java:465)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:454)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:375)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.addPropertySources(ConfigFileApplicationListener.java:214)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.postProcessEnvironment(ConfigFileApplicationListener.java:184)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.onApplicationEnvironmentPreparedEvent(ConfigFileApplicationListener.java:171)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.onApplicationEvent(ConfigFileApplicationListener.java:157)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:167)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:122)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:74)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:325)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:296)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at cn.netinnet.nna.Application.main(Application.java:34)
+	at sun.reflect.GeneratedMethodAccessor192.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.boot.maven.AbstractRunMojo$LaunchRunner.run(AbstractRunMojo.java:527)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.yaml.snakeyaml.scanner.ScannerException: while scanning a tag
+ in 'reader', line 144, column 20:
+            key: {99cj}!@#$*&^%|pk|(auth)
+                       ^
+expected ' ', but found '#' (35)
+ in 'reader', line 144, column 22:
+            key: {99cj}!@#$*&^%|pk|(auth)
+                         ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.scanTag(ScannerImpl.java:1550)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchTag(ScannerImpl.java:956)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:374)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:226)
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:557)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:157)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:147)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:224)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:155)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:246)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:237)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:225)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:155)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:246)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:237)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:225)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:155)
+	at org.yaml.snakeyaml.composer.Composer.composeDocument(Composer.java:122)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:84)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getData(BaseConstructor.java:104)
+	at org.yaml.snakeyaml.Yaml$1.next(Yaml.java:471)
+	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:160)
+	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:138)
+	at org.springframework.boot.env.YamlPropertySourceLoader$Processor.process(YamlPropertySourceLoader.java:101)
+	at org.springframework.boot.env.YamlPropertySourceLoader.load(YamlPropertySourceLoader.java:58)
+	at org.springframework.boot.env.PropertySourcesLoader.load(PropertySourcesLoader.java:127)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.doLoadIntoGroup(ConfigFileApplicationListener.java:479)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.loadIntoGroup(ConfigFileApplicationListener.java:462)
+	... 21 common frames omitted
+09:14:42.668 logback [main] INFO  cn.netinnet.nna.Application - Starting Application on netinnet-A267 with PID 9552 (E:\01.Workspace\IDEA_201702\nin_springBoot_v1.0\target\classes started by Administrator in E:\01.Workspace\IDEA_201702\nin_springBoot_v1.0)
+09:14:42.679 logback [main] INFO  cn.netinnet.nna.Application - No active profile set, falling back to default profiles: default
+09:14:44.099 logback [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2f2e82e9: startup date [Tue Nov 07 09:14:44 CST 2017]; root of context hierarchy
+09:14:44.735 logback [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+09:14:47.608 logback [main] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [application-bean.xml]
+09:14:48.774 logback [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+09:14:50.993 logback [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$66a5db9b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:14:51.119 logback [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisCacheConfig' of type [cn.netinnet.nna.config.RedisCacheConfig$$EnhancerBySpringCGLIB$$b6b0eaf8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:14:51.132 logback [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cache.annotation.ProxyCachingConfiguration' of type [org.springframework.cache.annotation.ProxyCachingConfiguration$$EnhancerBySpringCGLIB$$afb811b9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:14:52.899 logback [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+09:14:52.943 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+09:14:52.945 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.15
+09:14:53.592 logback [localhost-startStop-1] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09:14:53.608 logback [localhost-startStop-1] INFO  o.a.c.c.C.[.[.[/mySpringBoot] - Initializing Spring embedded WebApplicationContext
+09:14:53.609 logback [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 9510 ms
+09:14:55.378 logback [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+09:14:55.382 logback [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+09:14:55.389 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+09:14:55.390 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'springSessionRepositoryFilter' to: [/*]
+09:14:55.390 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+09:14:55.390 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+09:14:55.390 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+09:14:55.390 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+09:14:59.383 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView cn.netinnet.nna.controller.IndexController.index()
+09:14:59.384 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/main],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView cn.netinnet.nna.controller.IndexController.main()
+09:14:59.385 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/toIndex],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView cn.netinnet.nna.controller.IndexController.toIndex()
+09:14:59.385 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/index2],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView cn.netinnet.nna.controller.IndexController.index2()
+09:14:59.386 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getDemoInfo],methods=[GET]}" onto public cn.netinnet.nna.domain.DemoInfo cn.netinnet.nna.controller.IndexController.getDemoInfo()
+09:14:59.386 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/testError],methods=[GET]}" onto public java.lang.String cn.netinnet.nna.controller.IndexController.testError()
+09:14:59.392 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/learn],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView cn.netinnet.nna.controller.LearnController.main()
+09:14:59.393 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/learn/queryLeanList],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public void cn.netinnet.nna.controller.LearnController.queryLearnList(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+09:14:59.393 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/learn/add],methods=[POST]}" onto public void cn.netinnet.nna.controller.LearnController.addLearn(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+09:14:59.394 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/learn/update],methods=[POST]}" onto public void cn.netinnet.nna.controller.LearnController.updateLearn(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+09:14:59.395 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/learn/delete],methods=[POST]}" onto public void cn.netinnet.nna.controller.LearnController.deleteUser(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+09:14:59.398 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/login/login],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> cn.netinnet.nna.controller.LoginController.login(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+09:14:59.398 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/login/],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView cn.netinnet.nna.controller.LoginController.toLogin()
+09:14:59.400 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/delete],methods=[POST]}" onto public java.lang.String cn.netinnet.nna.controller.TestRedisController.delete(long)
+09:14:59.401 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/test],methods=[POST]}" onto public java.lang.String cn.netinnet.nna.controller.TestRedisController.test()
+09:14:59.401 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/test1],methods=[GET]}" onto public java.lang.String cn.netinnet.nna.controller.TestRedisController.test1()
+09:14:59.403 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sessions],methods=[GET]}" onto public java.lang.Object cn.netinnet.nna.controller.TestSpringSessionController.sessions(javax.servlet.http.HttpServletRequest)
+09:14:59.404 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/first],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.Object> cn.netinnet.nna.controller.TestSpringSessionController.firstResp(javax.servlet.http.HttpServletRequest)
+09:14:59.407 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/demo/toHtml],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView cn.netinnet.nna.controller.TestViewController.toHtml()
+09:14:59.407 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/demo/toJsp],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView cn.netinnet.nna.controller.TestViewController.toJsp()
+09:14:59.408 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/testTransaction],methods=[GET]}" onto public void cn.netinnet.nna.controller.UserController.testTransaction(java.lang.String,java.lang.String)
+09:14:59.411 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView cn.netinnet.nna.global.GlobalErrorController.error()
+09:14:59.412 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error/401],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView cn.netinnet.nna.global.GlobalErrorController.error401()
+09:14:59.412 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error/404],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView cn.netinnet.nna.global.GlobalErrorController.error404()
+09:14:59.412 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error/500],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView cn.netinnet.nna.global.GlobalErrorController.error500()
+09:14:59.414 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+09:14:59.419 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+09:14:59.420 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+09:14:59.422 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+09:15:01.244 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2f2e82e9: startup date [Tue Nov 07 09:14:44 CST 2017]; root of context hierarchy
+09:15:01.370 logback [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+09:15:01.371 logback [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+09:15:01.403 logback [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in globalExceptionHandler
+09:15:01.438 logback [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+09:15:03.001 logback [main] WARN  o.s.b.a.t.AbstractTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+09:15:03.503 logback [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+09:15:03.506 logback [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'druidDataSource' has been autodetected for JMX exposure
+09:15:03.506 logback [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'wallConfig' has been autodetected for JMX exposure
+09:15:03.507 logback [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'wallFilter' has been autodetected for JMX exposure
+09:15:03.519 logback [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'wallConfig': registering with JMX server as MBean [com.alibaba.druid.wall:name=wallConfig,type=WallConfig]
+09:15:03.533 logback [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'wallFilter': registering with JMX server as MBean [com.alibaba.druid.wall:name=wallFilter,type=WallFilter]
+09:15:03.535 logback [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'druidDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=druidDataSource,type=DruidDataSource]
+09:15:03.544 logback [main] INFO  o.s.c.s.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+09:15:03.544 logback [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+09:15:03.607 logback [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 2 custom documentation plugin(s)
+09:15:03.642 logback [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+09:15:04.087 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: mainUsingGET_1
+09:15:04.233 logback [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+09:15:04.338 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: errorUsingPOST_1
+09:15:04.343 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: error401UsingPOST_1
+09:15:04.346 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: error404UsingPOST_1
+09:15:04.350 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: error500UsingPOST_1
+09:15:04.357 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: getDemoInfoUsingGET_1
+09:15:04.361 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: indexUsingGET_1
+09:15:04.364 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: index2UsingGET_1
+09:15:04.368 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: mainUsingGET_2
+09:15:04.371 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: testErrorUsingGET_1
+09:15:04.375 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: toIndexUsingGET_1
+09:15:04.383 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: addLearnUsingPOST_1
+09:15:04.389 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: deleteUserUsingPOST_1
+09:15:04.393 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: mainUsingGET_3
+09:15:04.400 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: queryLearnListUsingPOST_1
+09:15:04.407 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: updateLearnUsingPOST_1
+09:15:04.414 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: loginUsingPOST_1
+09:15:04.418 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: toLoginUsingGET_1
+09:15:04.425 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_1
+09:15:04.428 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: testUsingPOST_1
+09:15:04.430 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: test1UsingGET_1
+09:15:04.438 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: firstRespUsingGET_1
+09:15:04.443 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: sessionsUsingGET_1
+09:15:04.447 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: toHtmlUsingGET_1
+09:15:04.450 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: toJspUsingGET_1
+09:15:04.458 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: testTransactionUsingGET_1
+09:15:04.487 logback [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+09:15:04.516 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+09:15:04.543 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+09:15:04.601 logback [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+09:15:04.752 logback [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+09:15:04.778 logback [main] INFO  cn.netinnet.nna.Application - Started Application in 23.081 seconds (JVM running for 29.791)
+09:19:38.984 logback [main] INFO  cn.netinnet.nna.Application - Starting Application on netinnet-A267 with PID 9288 (E:\01.Workspace\IDEA_201702\nin_springBoot_v1.0\target\classes started by Administrator in E:\01.Workspace\IDEA_201702\nin_springBoot_v1.0)
+09:19:38.991 logback [main] INFO  cn.netinnet.nna.Application - No active profile set, falling back to default profiles: default
+09:19:39.032 logback [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+09:19:39.870 logback [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@672be4db: startup date [Tue Nov 07 09:19:39 CST 2017]; root of context hierarchy
+09:19:42.379 logback [main] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [application-bean.xml]
+09:19:43.602 logback [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+09:19:46.049 logback [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$df3a13fc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:19:46.232 logback [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisCacheConfig' of type [cn.netinnet.nna.config.RedisCacheConfig$$EnhancerBySpringCGLIB$$2f452359] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:19:46.265 logback [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cache.annotation.ProxyCachingConfiguration' of type [org.springframework.cache.annotation.ProxyCachingConfiguration$$EnhancerBySpringCGLIB$$284c4a1a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:19:47.460 logback [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+09:19:47.508 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+09:19:47.512 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.15
+09:19:48.441 logback [localhost-startStop-1] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09:19:48.451 logback [localhost-startStop-1] INFO  o.a.c.c.C.[.[.[/mySpringBoot] - Initializing Spring embedded WebApplicationContext
+09:19:48.451 logback [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 8582 ms
+09:19:49.612 logback [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+09:19:49.617 logback [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+09:19:49.627 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+09:19:49.629 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'springSessionRepositoryFilter' to: [/*]
+09:19:49.629 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+09:19:49.630 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+09:19:49.630 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+09:19:49.632 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+09:19:54.231 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView cn.netinnet.nna.controller.IndexController.index()
+09:19:54.235 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/main],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView cn.netinnet.nna.controller.IndexController.main()
+09:19:54.236 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/index2],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView cn.netinnet.nna.controller.IndexController.index2()
+09:19:54.236 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/toIndex],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView cn.netinnet.nna.controller.IndexController.toIndex()
+09:19:54.236 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getDemoInfo],methods=[GET]}" onto public cn.netinnet.nna.domain.DemoInfo cn.netinnet.nna.controller.IndexController.getDemoInfo()
+09:19:54.237 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/testError],methods=[GET]}" onto public java.lang.String cn.netinnet.nna.controller.IndexController.testError()
+09:19:54.255 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/learn],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView cn.netinnet.nna.controller.LearnController.main()
+09:19:54.257 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/learn/queryLeanList],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public void cn.netinnet.nna.controller.LearnController.queryLearnList(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+09:19:54.257 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/learn/add],methods=[POST]}" onto public void cn.netinnet.nna.controller.LearnController.addLearn(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+09:19:54.258 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/learn/update],methods=[POST]}" onto public void cn.netinnet.nna.controller.LearnController.updateLearn(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+09:19:54.258 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/learn/delete],methods=[POST]}" onto public void cn.netinnet.nna.controller.LearnController.deleteUser(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+09:19:54.261 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/login/],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView cn.netinnet.nna.controller.LoginController.toLogin()
+09:19:54.261 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/login/login],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> cn.netinnet.nna.controller.LoginController.login(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+09:19:54.263 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/delete],methods=[POST]}" onto public java.lang.String cn.netinnet.nna.controller.TestRedisController.delete(long)
+09:19:54.264 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/test],methods=[POST]}" onto public java.lang.String cn.netinnet.nna.controller.TestRedisController.test()
+09:19:54.265 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/test1],methods=[GET]}" onto public java.lang.String cn.netinnet.nna.controller.TestRedisController.test1()
+09:19:54.267 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sessions],methods=[GET]}" onto public java.lang.Object cn.netinnet.nna.controller.TestSpringSessionController.sessions(javax.servlet.http.HttpServletRequest)
+09:19:54.267 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/first],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.Object> cn.netinnet.nna.controller.TestSpringSessionController.firstResp(javax.servlet.http.HttpServletRequest)
+09:19:54.270 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/demo/toHtml],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView cn.netinnet.nna.controller.TestViewController.toHtml()
+09:19:54.270 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/demo/toJsp],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView cn.netinnet.nna.controller.TestViewController.toJsp()
+09:19:54.272 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/testTransaction],methods=[GET]}" onto public void cn.netinnet.nna.controller.UserController.testTransaction(java.lang.String,java.lang.String)
+09:19:54.274 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView cn.netinnet.nna.global.GlobalErrorController.error()
+09:19:54.275 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error/401],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView cn.netinnet.nna.global.GlobalErrorController.error401()
+09:19:54.275 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error/404],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView cn.netinnet.nna.global.GlobalErrorController.error404()
+09:19:54.275 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error/500],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView cn.netinnet.nna.global.GlobalErrorController.error500()
+09:19:54.281 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+09:19:54.290 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+09:19:54.291 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+09:19:54.291 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+09:19:56.385 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@672be4db: startup date [Tue Nov 07 09:19:39 CST 2017]; root of context hierarchy
+09:19:56.660 logback [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+09:19:56.660 logback [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+09:19:56.716 logback [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in globalExceptionHandler
+09:19:56.763 logback [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+09:19:57.991 logback [main] WARN  o.s.b.a.t.AbstractTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+09:19:58.613 logback [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+09:19:58.617 logback [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'druidDataSource' has been autodetected for JMX exposure
+09:19:58.617 logback [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'wallConfig' has been autodetected for JMX exposure
+09:19:58.618 logback [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'wallFilter' has been autodetected for JMX exposure
+09:19:58.642 logback [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'wallConfig': registering with JMX server as MBean [com.alibaba.druid.wall:name=wallConfig,type=WallConfig]
+09:19:58.646 logback [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'wallFilter': registering with JMX server as MBean [com.alibaba.druid.wall:name=wallFilter,type=WallFilter]
+09:19:58.649 logback [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'druidDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=druidDataSource,type=DruidDataSource]
+09:19:58.660 logback [main] INFO  o.s.c.s.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+09:19:58.661 logback [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+09:19:58.734 logback [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 2 custom documentation plugin(s)
+09:19:58.775 logback [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+09:19:59.422 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: mainUsingGET_1
+09:19:59.631 logback [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+09:19:59.713 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: errorUsingPOST_1
+09:19:59.719 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: error401UsingPOST_1
+09:19:59.725 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: error404UsingPOST_1
+09:19:59.730 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: error500UsingPOST_1
+09:19:59.742 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: getDemoInfoUsingGET_1
+09:19:59.748 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: indexUsingGET_1
+09:19:59.753 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: index2UsingGET_1
+09:19:59.758 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: mainUsingGET_2
+09:19:59.763 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: testErrorUsingGET_1
+09:19:59.767 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: toIndexUsingGET_1
+09:19:59.777 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: addLearnUsingPOST_1
+09:19:59.784 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: deleteUserUsingPOST_1
+09:19:59.790 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: mainUsingGET_3
+09:19:59.799 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: queryLearnListUsingPOST_1
+09:19:59.809 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: updateLearnUsingPOST_1
+09:19:59.818 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: loginUsingPOST_1
+09:19:59.824 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: toLoginUsingGET_1
+09:19:59.831 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_1
+09:19:59.835 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: testUsingPOST_1
+09:19:59.839 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: test1UsingGET_1
+09:19:59.846 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: firstRespUsingGET_1
+09:19:59.859 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: sessionsUsingGET_1
+09:19:59.870 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: toHtmlUsingGET_1
+09:19:59.874 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: toJspUsingGET_1
+09:19:59.883 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: testTransactionUsingGET_1
+09:19:59.930 logback [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+09:20:00.027 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+09:20:00.071 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+09:20:00.117 logback [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+09:20:00.288 logback [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+09:20:00.326 logback [main] INFO  cn.netinnet.nna.Application - Started Application in 24.531 seconds (JVM running for 40.997)
+09:20:39.291 logback [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/mySpringBoot] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+09:20:39.291 logback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+09:20:39.403 logback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 111 ms
+11:08:49.602 logback [main] INFO  cn.netinnet.nna.Application - Starting Application on netinnet-a406 with PID 19616 (C:\1107\nin_springBoot_v1.0\target\classes started by netinnet in C:\1107\nin_springBoot_v1.0)
+11:08:49.602 logback [main] INFO  cn.netinnet.nna.Application - No active profile set, falling back to default profiles: default
+11:08:50.259 logback [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2f5f259d: startup date [Tue Nov 07 11:08:50 CST 2017]; root of context hierarchy
+11:08:50.337 logback [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+11:08:52.055 logback [main] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [application-bean.xml]
+11:08:52.540 logback [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+11:08:53.868 logback [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6a00813c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+11:08:53.962 logback [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisCacheConfig' of type [cn.netinnet.nna.config.RedisCacheConfig$$EnhancerBySpringCGLIB$$ba0b9099] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+11:08:53.977 logback [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cache.annotation.ProxyCachingConfiguration' of type [org.springframework.cache.annotation.ProxyCachingConfiguration$$EnhancerBySpringCGLIB$$b312b75a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+11:08:55.071 logback [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+11:08:55.102 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:08:55.102 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.15
+11:08:55.743 logback [localhost-startStop-1] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11:08:55.759 logback [localhost-startStop-1] INFO  o.a.c.c.C.[.[.[/mySpringBoot] - Initializing Spring embedded WebApplicationContext
+11:08:55.759 logback [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5500 ms
+11:08:56.759 logback [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+11:08:56.759 logback [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+11:08:56.759 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+11:08:56.759 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'springSessionRepositoryFilter' to: [/*]
+11:08:56.759 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+11:08:56.759 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+11:08:56.759 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+11:08:56.774 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+11:08:59.009 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView cn.netinnet.nna.controller.IndexController.index()
+11:08:59.009 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/main],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView cn.netinnet.nna.controller.IndexController.main()
+11:08:59.009 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/toIndex],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView cn.netinnet.nna.controller.IndexController.toIndex()
+11:08:59.009 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/index2],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView cn.netinnet.nna.controller.IndexController.index2()
+11:08:59.009 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getDemoInfo],methods=[GET]}" onto public cn.netinnet.nna.domain.DemoInfo cn.netinnet.nna.controller.IndexController.getDemoInfo()
+11:08:59.009 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/testError],methods=[GET]}" onto public java.lang.String cn.netinnet.nna.controller.IndexController.testError()
+11:08:59.009 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/learn],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView cn.netinnet.nna.controller.LearnController.main()
+11:08:59.009 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/learn/queryLeanList],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public void cn.netinnet.nna.controller.LearnController.queryLearnList(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+11:08:59.009 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/learn/delete],methods=[POST]}" onto public void cn.netinnet.nna.controller.LearnController.deleteUser(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+11:08:59.009 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/learn/update],methods=[POST]}" onto public void cn.netinnet.nna.controller.LearnController.updateLearn(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+11:08:59.009 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/learn/add],methods=[POST]}" onto public void cn.netinnet.nna.controller.LearnController.addLearn(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+11:08:59.009 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/login/login],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> cn.netinnet.nna.controller.LoginController.login(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+11:08:59.009 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/login/],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView cn.netinnet.nna.controller.LoginController.toLogin()
+11:08:59.009 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/delete],methods=[POST]}" onto public java.lang.String cn.netinnet.nna.controller.TestRedisController.delete(long)
+11:08:59.009 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/test],methods=[POST]}" onto public java.lang.String cn.netinnet.nna.controller.TestRedisController.test()
+11:08:59.009 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/test1],methods=[GET]}" onto public java.lang.String cn.netinnet.nna.controller.TestRedisController.test1()
+11:08:59.024 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sessions],methods=[GET]}" onto public java.lang.Object cn.netinnet.nna.controller.TestSpringSessionController.sessions(javax.servlet.http.HttpServletRequest)
+11:08:59.024 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/first],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.Object> cn.netinnet.nna.controller.TestSpringSessionController.firstResp(javax.servlet.http.HttpServletRequest)
+11:08:59.024 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/demo/toJsp],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView cn.netinnet.nna.controller.TestViewController.toJsp()
+11:08:59.024 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/demo/toHtml],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView cn.netinnet.nna.controller.TestViewController.toHtml()
+11:08:59.024 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/testTransaction],methods=[GET]}" onto public void cn.netinnet.nna.controller.UserController.testTransaction(java.lang.String,java.lang.String)
+11:08:59.024 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView cn.netinnet.nna.global.GlobalErrorController.error()
+11:08:59.024 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error/404],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView cn.netinnet.nna.global.GlobalErrorController.error404()
+11:08:59.024 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error/401],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView cn.netinnet.nna.global.GlobalErrorController.error401()
+11:08:59.024 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error/500],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView cn.netinnet.nna.global.GlobalErrorController.error500()
+11:08:59.024 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+11:08:59.024 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+11:08:59.024 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+11:08:59.040 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+11:09:00.493 logback [main] WARN  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'enableRedisKeyspaceNotificationsInitializer' defined in class path resource [org/springframework/session/data/redis/config/annotation/web/http/RedisHttpSessionConfiguration.class]: Invocation of init method failed; nested exception is org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+11:09:00.493 logback [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+11:09:00.540 logback [main] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+11:09:00.555 logback [main] ERROR o.s.boot.SpringApplication - Application startup failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'enableRedisKeyspaceNotificationsInitializer' defined in class path resource [org/springframework/session/data/redis/config/annotation/web/http/RedisHttpSessionConfiguration.class]: Invocation of init method failed; nested exception is org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1628)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at cn.netinnet.nna.Application.main(Application.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.boot.maven.AbstractRunMojo$LaunchRunner.run(AbstractRunMojo.java:527)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:204)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:348)
+	at org.springframework.session.data.redis.config.annotation.web.http.RedisHttpSessionConfiguration$EnableRedisKeyspaceNotificationsInitializer.afterPropertiesSet(RedisHttpSessionConfiguration.java:249)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1687)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1624)
+	... 22 common frames omitted
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at redis.clients.util.Pool.getResource(Pool.java:53)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:226)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:16)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:194)
+	... 26 common frames omitted
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Connection refused: connect
+	at redis.clients.jedis.Connection.connect(Connection.java:207)
+	at redis.clients.jedis.BinaryClient.connect(BinaryClient.java:93)
+	at redis.clients.jedis.BinaryJedis.connect(BinaryJedis.java:1767)
+	at redis.clients.jedis.JedisFactory.makeObject(JedisFactory.java:106)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:868)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:435)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:363)
+	at redis.clients.util.Pool.getResource(Pool.java:49)
+	... 29 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at redis.clients.jedis.Connection.connect(Connection.java:184)
+	... 36 common frames omitted
+11:10:06.032 logback [main] INFO  cn.netinnet.nna.Application - Starting Application on netinnet-a406 with PID 13108 (C:\1107\nin_springBoot_v1.0\target\classes started by netinnet in C:\1107\nin_springBoot_v1.0)
+11:10:06.032 logback [main] INFO  cn.netinnet.nna.Application - No active profile set, falling back to default profiles: default
+11:10:06.594 logback [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@702df41c: startup date [Tue Nov 07 11:10:06 CST 2017]; root of context hierarchy
+11:10:06.672 logback [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+11:10:08.516 logback [main] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [application-bean.xml]
+11:10:09.047 logback [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+11:10:10.107 logback [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bf2a87a2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+11:10:10.185 logback [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisCacheConfig' of type [cn.netinnet.nna.config.RedisCacheConfig$$EnhancerBySpringCGLIB$$f3596ff] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+11:10:10.201 logback [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cache.annotation.ProxyCachingConfiguration' of type [org.springframework.cache.annotation.ProxyCachingConfiguration$$EnhancerBySpringCGLIB$$83cbdc0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+11:10:11.060 logback [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+11:10:11.076 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:10:11.091 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.15
+11:10:11.623 logback [localhost-startStop-1] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11:10:11.638 logback [localhost-startStop-1] INFO  o.a.c.c.C.[.[.[/mySpringBoot] - Initializing Spring embedded WebApplicationContext
+11:10:11.638 logback [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5044 ms
+11:10:12.388 logback [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+11:10:12.388 logback [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+11:10:12.404 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+11:10:12.404 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'springSessionRepositoryFilter' to: [/*]
+11:10:12.404 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+11:10:12.404 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+11:10:12.404 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+11:10:12.404 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+11:10:14.248 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView cn.netinnet.nna.controller.IndexController.index()
+11:10:14.248 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/main],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView cn.netinnet.nna.controller.IndexController.main()
+11:10:14.248 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/toIndex],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView cn.netinnet.nna.controller.IndexController.toIndex()
+11:10:14.248 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/index2],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView cn.netinnet.nna.controller.IndexController.index2()
+11:10:14.263 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getDemoInfo],methods=[GET]}" onto public cn.netinnet.nna.domain.DemoInfo cn.netinnet.nna.controller.IndexController.getDemoInfo()
+11:10:14.263 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/testError],methods=[GET]}" onto public java.lang.String cn.netinnet.nna.controller.IndexController.testError()
+11:10:14.263 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/learn],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView cn.netinnet.nna.controller.LearnController.main()
+11:10:14.263 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/learn/add],methods=[POST]}" onto public void cn.netinnet.nna.controller.LearnController.addLearn(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+11:10:14.263 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/learn/queryLeanList],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public void cn.netinnet.nna.controller.LearnController.queryLearnList(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+11:10:14.263 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/learn/update],methods=[POST]}" onto public void cn.netinnet.nna.controller.LearnController.updateLearn(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+11:10:14.263 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/learn/delete],methods=[POST]}" onto public void cn.netinnet.nna.controller.LearnController.deleteUser(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+11:10:14.263 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/login/login],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> cn.netinnet.nna.controller.LoginController.login(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+11:10:14.263 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/login/],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView cn.netinnet.nna.controller.LoginController.toLogin()
+11:10:14.263 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/delete],methods=[POST]}" onto public java.lang.String cn.netinnet.nna.controller.TestRedisController.delete(long)
+11:10:14.263 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/test],methods=[POST]}" onto public java.lang.String cn.netinnet.nna.controller.TestRedisController.test()
+11:10:14.263 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/test1],methods=[GET]}" onto public java.lang.String cn.netinnet.nna.controller.TestRedisController.test1()
+11:10:14.263 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sessions],methods=[GET]}" onto public java.lang.Object cn.netinnet.nna.controller.TestSpringSessionController.sessions(javax.servlet.http.HttpServletRequest)
+11:10:14.263 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/first],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.Object> cn.netinnet.nna.controller.TestSpringSessionController.firstResp(javax.servlet.http.HttpServletRequest)
+11:10:14.263 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/demo/toJsp],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView cn.netinnet.nna.controller.TestViewController.toJsp()
+11:10:14.279 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/demo/toHtml],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView cn.netinnet.nna.controller.TestViewController.toHtml()
+11:10:14.279 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/testTransaction],methods=[GET]}" onto public void cn.netinnet.nna.controller.UserController.testTransaction(java.lang.String,java.lang.String)
+11:10:14.279 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView cn.netinnet.nna.global.GlobalErrorController.error()
+11:10:14.279 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error/404],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView cn.netinnet.nna.global.GlobalErrorController.error404()
+11:10:14.279 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error/401],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView cn.netinnet.nna.global.GlobalErrorController.error401()
+11:10:14.279 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error/500],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView cn.netinnet.nna.global.GlobalErrorController.error500()
+11:10:14.279 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+11:10:14.279 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+11:10:14.279 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+11:10:14.279 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+11:10:15.310 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@702df41c: startup date [Tue Nov 07 11:10:06 CST 2017]; root of context hierarchy
+11:10:15.419 logback [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+11:10:15.419 logback [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+11:10:15.466 logback [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in globalExceptionHandler
+11:10:15.498 logback [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+11:10:16.701 logback [main] WARN  o.s.b.a.t.AbstractTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+11:10:16.841 logback [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+11:10:16.841 logback [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'druidDataSource' has been autodetected for JMX exposure
+11:10:16.841 logback [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'wallConfig' has been autodetected for JMX exposure
+11:10:16.841 logback [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'wallFilter' has been autodetected for JMX exposure
+11:10:16.857 logback [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'wallConfig': registering with JMX server as MBean [com.alibaba.druid.wall:name=wallConfig,type=WallConfig]
+11:10:16.857 logback [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'wallFilter': registering with JMX server as MBean [com.alibaba.druid.wall:name=wallFilter,type=WallFilter]
+11:10:16.857 logback [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'druidDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=druidDataSource,type=DruidDataSource]
+11:10:16.857 logback [main] INFO  o.s.c.s.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+11:10:16.857 logback [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+11:10:16.904 logback [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 2 custom documentation plugin(s)
+11:10:16.935 logback [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+11:10:17.248 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: mainUsingGET_1
+11:10:17.357 logback [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+11:10:17.388 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: errorUsingPOST_1
+11:10:17.388 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: error401UsingPOST_1
+11:10:17.404 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: error404UsingPOST_1
+11:10:17.404 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: error500UsingPOST_1
+11:10:17.404 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: getDemoInfoUsingGET_1
+11:10:17.404 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: indexUsingGET_1
+11:10:17.404 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: index2UsingGET_1
+11:10:17.419 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: mainUsingGET_2
+11:10:17.419 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: testErrorUsingGET_1
+11:10:17.419 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: toIndexUsingGET_1
+11:10:17.419 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: addLearnUsingPOST_1
+11:10:17.435 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: deleteUserUsingPOST_1
+11:10:17.451 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: mainUsingGET_3
+11:10:17.451 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: queryLearnListUsingPOST_1
+11:10:17.498 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: updateLearnUsingPOST_1
+11:10:17.513 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: loginUsingPOST_1
+11:10:17.513 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: toLoginUsingGET_1
+11:10:17.529 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_1
+11:10:17.544 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: testUsingPOST_1
+11:10:17.544 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: test1UsingGET_1
+11:10:17.544 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: firstRespUsingGET_1
+11:10:17.560 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: sessionsUsingGET_1
+11:10:17.560 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: toHtmlUsingGET_1
+11:10:17.560 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: toJspUsingGET_1
+11:10:17.576 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: testTransactionUsingGET_1
+11:10:17.607 logback [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+11:10:17.623 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+11:10:17.654 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+11:10:17.685 logback [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+11:10:17.763 logback [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+11:10:17.779 logback [main] INFO  cn.netinnet.nna.Application - Started Application in 12.591 seconds (JVM running for 20.616)
+11:10:37.872 logback [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/mySpringBoot] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+11:10:37.872 logback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+11:10:37.945 logback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 73 ms
+11:10:46.422 logback [http-nio-8080-exec-10] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+11:10:47.066 logback [http-nio-8080-exec-1] INFO  c.n.n.global.GlobalExceptionHandler - Catch an exception
+org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:207)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:374)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:314)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:61)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:352)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1160)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:940)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:728)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:469)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:392)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:311)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:395)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:254)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:177)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)

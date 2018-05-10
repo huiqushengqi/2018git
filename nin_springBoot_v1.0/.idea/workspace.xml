@@ -1,0 +1,1153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="nin_springBoot_v1.0:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" readonly="true" id="58ed2635-5e57-4586-89eb-cebb84966b4e" name="Default" comment="修改示例项目" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/../mybatis-generator-gui-0.8.4/target/" />
+    <ignored path="$PROJECT_DIR$/../demo/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="nin_springBoot_v1.0" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/netinnet/nna/controller/LoginController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1320">
+              <caret line="70" column="38" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="14" column="23" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5424">
+              <caret line="226" column="47" selection-start-line="226" selection-start-column="47" selection-end-line="226" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_read01.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/doc/test_read01.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1509435672208" expanded="true" signature="0:145" ph="/* SQLyog 企业... " />
+                <marker date="1509435672208" expanded="true" signature="148:174" ph="/*!40101 SET... " />
+                <marker date="1509435672208" expanded="true" signature="177:203" ph="/*!40101 SET... " />
+                <marker date="1509435672208" expanded="true" signature="206:273" ph="/*!40014 SET... " />
+                <marker date="1509435672208" expanded="true" signature="275:357" ph="/*!40014 SET... " />
+                <marker date="1509435672208" expanded="true" signature="359:433" ph="/*!40101 SET... " />
+                <marker date="1509435672208" expanded="true" signature="435:490" ph="/*!40111 SET... " />
+                <marker date="1509435672208" expanded="true" signature="508:532" ph="/*!32312 IF " />
+                <marker date="1509435672208" expanded="true" signature="546:584" ph="/*!40100 DEF... " />
+                <marker date="1509435672208" expanded="true" signature="607:644" ph="/*Table stru... " />
+                <marker date="1509435672208" expanded="true" signature="646:673" ph="DROP TABLE I... " />
+                <marker date="1509435672208" expanded="true" signature="676:797" ph="CREATE TABLE... user" />
+                <marker date="1509435672208" expanded="true" signature="800:830" ph="/*Data for t... " />
+                <marker date="1509435672208" expanded="true" signature="832:889" ph="insert into user" />
+                <marker date="1509435672208" expanded="true" signature="892:930" ph="/*!40101 SET... " />
+                <marker date="1509435672208" expanded="true" signature="932:990" ph="/*!40014 SET... " />
+                <marker date="1509435672208" expanded="true" signature="992:1040" ph="/*!40014 SET... " />
+                <marker date="1509435672208" expanded="true" signature="1042:1082" ph="/*!40111 SET... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Application.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/netinnet/nna/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spring.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/doc/spring.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="learn-resource.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/learn-resource.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5064">
+              <caret line="211" column="18" selection-start-line="211" selection-start-column="18" selection-end-line="211" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LearnController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/netinnet/nna/controller/LearnController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2640">
+              <caret line="129" column="49" selection-start-line="129" selection-start-column="49" selection-end-line="129" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DateUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/netinnet/nna/util/DateUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="spring-beans.schema" />
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>User</find>
+      <find>findById</find>
+      <find>loaded</find>
+      <find>spring.mvc.view.view-names</find>
+      <find>view-names</find>
+      <find>DEFAULT_ERROR_PATH</find>
+      <find>prefix</find>
+      <find>/WEB-INF/jsp</find>
+      <find>ser</find>
+      <find>thymeleaf</find>
+      <find>t</find>
+      <find>thy</find>
+      <find>mvc.view</find>
+      <find>dateutil</find>
+      <find>v_uniqueId_count</find>
+      <find>demo</find>
+      <find>GlobalExceptionHandler</find>
+      <find>DataSourceTransactionManager</find>
+      <find>myspringboot</find>
+      <find>EnableWebMvc</find>
+      <find>SqlPrintInterceptor</find>
+      <find>pageHelper</find>
+      <find>readDataSource02</find>
+      <find>roundRobinDataSouceProxy</find>
+      <find>err</find>
+      <find>sqlSessionTemplate</find>
+      <find>maven-resources-plugin</find>
+      <find>ajax</find>
+      <find>templates/</find>
+      <find>pageContext.request.contextPath</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>DemoInfo</replace>
+      <replace>thymeleaf</replace>
+      <replace>ctx</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>E:\01.Workspace\IDEA_201702\nin_springBoot_v1.0\src\main\java\cn\netinnet\nna</dir>
+      <dir>E:\01.Workspace\IDEA_201702\nin_springBoot_v1.0</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="WARN_ABOUT_CRLF" value="false" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/cn/netinnet/nna/global/DataSourceAopInService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/netinnet/nna/domain/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/netinnet/nna/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/netinnet/nna/service/DemoInfoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/netinnet/nna/service/LearnResourceServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/netinnet/nna/service/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/netinnet/nna/service/LearnResourceService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/netinnet/nna/dao/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/netinnet/nna/controller/TestRedisController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/netinnet/nna/config/dbconfig/SqlPrintInterceptor.java" />
+        <option value="$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.3.1/mybatis-spring-1.3.1.jar!/org/mybatis/spring/SqlSessionTemplate.class" />
+        <option value="$MAVEN_REPOSITORY$/org/mybatis/spring/boot/mybatis-spring-boot-autoconfigure/1.3.0/mybatis-spring-boot-autoconfigure-1.3.0.jar!/org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class" />
+        <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/generator/generatorConfig.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/netinnet/nna/dao/UserMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/netinnet/nna/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/netinnet/nna/controller/TestReadAndWrite.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/netinnet/nna/config/dbconfig/DataSourceAopInService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/netinnet/nna/config/dbconfig/DataSourceConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/netinnet/nna/config/dbconfig/MybatisConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/netinnet/nna/global/GlobalErrorController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/netinnet/nna/global/GlobalExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/netinnet/nna/controller/LearnController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/netinnet/nna/controller/TestSpringSessionController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/netinnet/nna/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application-bean.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/test.html" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/netinnet/nna/controller/TestViewController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/demo.html" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/netinnet/nna/config/ViewConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/netinnet/nna/config/CustomWebMvcConfigurerAdapter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/netinnet/nna/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login_module.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/my-web.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/netinnet/nna/dto/UserCenterDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/netinnet/nna/config/HttpClientConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/netinnet/nna/annotation/ReadDataSource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/netinnet/nna/annotation/WriteDataSource.java" />
+        <option value="$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/1.5.4.RELEASE/spring-boot-1.5.4.RELEASE.jar!/org/springframework/boot/context/properties/ConfigurationProperties.class" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/netinnet/nna/config/DruidConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/netinnet/nna/util/HttpClientUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/netinnet/nna/util/httpClient/HttpConnectionManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/netinnet/nna/util/httpClient/HttpResultEntry.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/netinnet/nna/util/httpClient/ResultEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/netinnet/nna/util/httpClient/Data.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/netinnet/nna/util/httpClient/HttpClientUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/netinnet/nna/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="F:\repository-maven" />
+        <option name="mavenHome" value="F:/maven/apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="F:\maven\apache-maven-3.5.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="nin_springBoot_v1.0" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="nin_springBoot_v1.0" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="nin_springBoot_v1.0" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Run Configurations" type="21c1f71a:MavenProjectsStructure$RunConfigurationsNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="1305" />
+    <option name="height" value="770" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>Plugin DevKit</id>
+          </State>
+          <State>
+            <id>RegExp</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Duplicates</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="nin_springBoot_v1.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nin_springBoot_v1.0" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.1521739" />
+    <property name="project.structure.side.proportion" value="0.36209336" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\01.Workspace\IDEA_201702\nin_springBoot_v1.0\src\main\java\cn\netinnet\nna\util\httpClient" />
+      <recent name="E:\01.Workspace\IDEA_201702\nin_springBoot_v1.0\src\main\java\cn\netinnet\nna\util" />
+      <recent name="E:\01.Workspace\IDEA_201702\nin_springBoot_v1.0\doc" />
+      <recent name="E:\01.Workspace\IDEA_201702\nin_springBoot_v1.0\src\main\java\cn\netinnet\nna\dao\mapper" />
+      <recent name="E:\01.Workspace\IDEA_201702\nin_springBoot_v1.0\src\main\java\cn\netinnet\nna\dao" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\01.Workspace\IDEA_201702\nin_springBoot_v1.0\src\main\resources\config" />
+      <recent name="E:\01.Workspace\IDEA_201702\nin_springBoot_v1.0\src\main\webapp\WEB-INF\views" />
+      <recent name="E:\01.Workspace\IDEA_201702\nin_springBoot_v1.0\src\test" />
+      <recent name="E:\01.Workspace\IDEA_201702\nin_springBoot_v1.0\src\main\resources" />
+      <recent name="E:\01.Workspace\IDEA_201702\nin_springBoot_v1.0\src\main\java\cn\netinnet\nna\dao\mapper" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Application">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration name="MainUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zzg.mybatis.generator.MainUI" />
+      <module name="mybatis-generator-gui" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zzg.mybatis.generator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="mybatis-generator-gui" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+    </configuration>
+    <configuration name="demo" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="spring-boot:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/../demo" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
+    <configuration name="nin_springBoot_v1.0" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="spring-boot:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="nin_springBoot_v1.0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.netinnet.nna.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.netinnet.nna.Application" />
+    </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="Maven.nin_springBoot_v1.0" />
+      <item itemvalue="Maven.demo" />
+      <item itemvalue="Spring Boot.DemoApplication" />
+      <item itemvalue="Application.MainUI" />
+      <item itemvalue="Spring Boot.Application" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Application" />
+        <item itemvalue="Application.MainUI" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\Nsher\AppData\Roaming\Subversion</configuration>
+    <myIsUseDefaultProxy>true</myIsUseDefaultProxy>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="58ed2635-5e57-4586-89eb-cebb84966b4e" name="Default" comment="" />
+      <created>1504171359950</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1504171359950</updated>
+      <workItem from="1504171362636" duration="1624000" />
+      <workItem from="1504236522143" duration="7508000" />
+      <workItem from="1504745056370" duration="18134000" />
+      <workItem from="1504832673455" duration="3105000" />
+      <workItem from="1505092046170" duration="1784000" />
+      <workItem from="1505177556939" duration="14611000" />
+      <workItem from="1505264430643" duration="8292000" />
+      <workItem from="1505351415455" duration="2896000" />
+      <workItem from="1505960383733" duration="6996000" />
+      <workItem from="1506041142387" duration="4962000" />
+      <workItem from="1506300998248" duration="21818000" />
+      <workItem from="1506386902259" duration="2738000" />
+      <workItem from="1506474039004" duration="13106000" />
+      <workItem from="1506561638414" duration="15518000" />
+      <workItem from="1506646547950" duration="6841000" />
+      <workItem from="1506732876618" duration="4388000" />
+      <workItem from="1506751386266" duration="8189000" />
+      <workItem from="1507511569430" duration="11818000" />
+      <workItem from="1507597248895" duration="4982000" />
+      <workItem from="1507683239607" duration="2780000" />
+      <workItem from="1507769294064" duration="1136000" />
+      <workItem from="1507794098398" duration="1329000" />
+      <workItem from="1507855864854" duration="3183000" />
+      <workItem from="1508115259861" duration="3471000" />
+      <workItem from="1508201655113" duration="2952000" />
+      <workItem from="1508292058255" duration="700000" />
+      <workItem from="1508308612583" duration="2421000" />
+      <workItem from="1508374190140" duration="1222000" />
+      <workItem from="1508401272951" duration="7263000" />
+      <workItem from="1508460497183" duration="3100000" />
+      <workItem from="1508564742591" duration="1724000" />
+      <workItem from="1508720007429" duration="2972000" />
+      <workItem from="1508806490762" duration="4662000" />
+      <workItem from="1508893492558" duration="3593000" />
+      <workItem from="1508979484638" duration="19802000" />
+      <workItem from="1509066035308" duration="8977000" />
+      <workItem from="1509325143069" duration="16468000" />
+      <workItem from="1509411400730" duration="4405000" />
+      <workItem from="1509420881355" duration="14332000" />
+      <workItem from="1509498029090" duration="9024000" />
+      <workItem from="1509584501652" duration="9767000" />
+      <workItem from="1509670479434" duration="9992000" />
+      <workItem from="1509928759120" duration="6245000" />
+      <workItem from="1510016073300" duration="1553000" />
+      <workItem from="1525702481977" duration="2977000" />
+      <workItem from="1525921006346" duration="718000" />
+      <workItem from="1525922190089" duration="110000" />
+      <workItem from="1525922332946" duration="153000" />
+      <workItem from="1525922518439" duration="657000" />
+      <workItem from="1525923417726" duration="3509000" />
+      <workItem from="1525941388153" duration="583000" />
+    </task>
+    <task id="LOCAL-00001" summary="添加事务控制；添加swagger构建rest api">
+      <created>1504763815787</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1504763815787</updated>
+    </task>
+    <task id="LOCAL-00002" summary="修正登录异常问题">
+      <created>1504763885480</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1504763885480</updated>
+    </task>
+    <task id="LOCAL-00003" summary="添加文件说明注释">
+      <created>1504764632050</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1504764632050</updated>
+    </task>
+    <task id="LOCAL-00004" summary="修改示例项目">
+      <created>1506585431636</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1506585431636</updated>
+    </task>
+    <task id="LOCAL-00005" summary="修改示例项目">
+      <created>1506585718861</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1506585718861</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="311090000" />
+  </component>
+  <component name="TodoView" selected-index="3">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.45332617" side_tool="true" weight="0.51542854" />
+      <window_info anchor="bottom" id="Maven Projects" order="19" sideWeight="0.49785408" weight="0.5245714" />
+      <window_info anchor="bottom" id="Database Changes" order="20" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="8" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32957292" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="UI Designer" order="3" />
+      <window_info anchor="bottom" id="Debug" order="6" sideWeight="0.37244898" weight="0.21371429" />
+      <window_info anchor="bottom" auto_hide="true" id="TODO" order="9" sideWeight="0.49276528" weight="0.32730263" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info id="Image Layers" order="4" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32730263" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="bottom" id="Run Dashboard" order="21" weight="0.10968661" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.40625" />
+      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.54667383" weight="0.45485714" />
+      <window_info anchor="bottom" id="Spring" order="15" weight="0.32730263" />
+      <window_info anchor="bottom" id="Terminal" order="17" sideWeight="0.42414862" weight="0.32730263" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24597855" />
+      <window_info anchor="bottom" id="Run with VisualVM" order="0" />
+      <window_info anchor="right" id="Bean Validation" order="7" />
+      <window_info id="Web" order="5" side_tool="true" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Debug with VisualVM" order="1" />
+      <window_info anchor="bottom" id="REST Client" order="2" />
+      <window_info anchor="bottom" id="JRebel Executor" order="11" sideWeight="0.41108787" weight="0.2993421" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24979855" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Tail" order="12" />
+      <window_info id="JRebel" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="16" sideWeight="0.4957537" visible="true" weight="0.32621083" />
+      <window_info anchor="bottom" id="Find" order="4" sideWeight="0.4373673" weight="0.32730263" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="JRebel Console" order="18" sideWeight="0.627551" side_tool="true" weight="0.52138156" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="添加事务控制；添加swagger构建rest api" />
+    <MESSAGE value="修正登录异常问题" />
+    <MESSAGE value="添加文件说明注释" />
+    <MESSAGE value="修改示例项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改示例项目" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="20" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="MavenRunConfiguration">
+        <watch expression="getUrl()" language="JAVA" />
+        <watch expression="file.exists()" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XPathView.XPathProjectComponent">
+    <history />
+    <find-history />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/netinnet/nna/global/GlobalErrorController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1444">
+          <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/netinnet/nna/controller/TestRedisController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/netinnet/nna/controller/TestSpringSessionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/netinnet/nna/interceptor/MyInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index2.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login_module.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="23" column="28" lean-forward="true" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1210">
+          <caret line="86" column="19" selection-start-line="86" selection-start-column="19" selection-end-line="86" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config/my-web.yml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/netinnet/nna/dto/UserCenterDto.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/netinnet/nna/config/dbconfig/DataSourceAopInService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/generator/generatorConfig.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/netinnet/nna/config/HtmlResourceView.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/netinnet/nna/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="44" column="6" selection-start-line="44" selection-start-column="6" selection-end-line="44" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/netinnet/nna/controller/TestViewController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/demo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/generator/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application-bean.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="31" column="56" lean-forward="true" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/netinnet/nna/annotation/ReadDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/netinnet/nna/annotation/WriteDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/1.5.4.RELEASE/spring-boot-1.5.4.RELEASE.jar!/org/springframework/boot/context/properties/ConfigurationProperties.class" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/netinnet/nna/config/DruidConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/netinnet/nna/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1298">
+          <caret line="71" column="39" lean-forward="true" selection-start-line="71" selection-start-column="39" selection-end-line="71" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/netinnet/nna/controller/TestReadAndWrite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/netinnet/nna/config/HttpClientConfig.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/netinnet/nna/config/ConfigurationForTiles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/netinnet/nna/config/CustomWebMvcConfigurerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/netinnet/nna/config/RedisCacheConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/netinnet/nna/util/httpClient/HttpConnectionManager.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/netinnet/nna/util/httpClient/HttpResultEntry.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/netinnet/nna/util/httpClient/ResultEnum.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/netinnet/nna/util/httpClient/HttpClientUtil.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/netinnet/nna/util/StringUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4320">
+          <caret line="151" column="39" selection-start-line="151" selection-start-column="26" selection-end-line="151" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/netinnet/nna/util/SpringContextUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/netinnet/nna/util/httpClient/Data.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/netinnet/nna/config/ViewConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/learnResource.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1890" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/netinnet/nna/util/DateUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/netinnet/nna/controller/LearnController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2640">
+          <caret line="129" column="49" selection-start-line="129" selection-start-column="49" selection-end-line="129" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/learn-resource.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5064">
+          <caret line="211" column="18" selection-start-line="211" selection-start-column="18" selection-end-line="211" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/netinnet/nna/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="70" column="38" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5424">
+          <caret line="226" column="47" selection-start-line="226" selection-start-column="47" selection-end-line="226" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/spring.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/test_read01.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1509435672208" expanded="true" signature="0:145" ph="/* SQLyog 企业... " />
+            <marker date="1509435672208" expanded="true" signature="148:174" ph="/*!40101 SET... " />
+            <marker date="1509435672208" expanded="true" signature="177:203" ph="/*!40101 SET... " />
+            <marker date="1509435672208" expanded="true" signature="206:273" ph="/*!40014 SET... " />
+            <marker date="1509435672208" expanded="true" signature="275:357" ph="/*!40014 SET... " />
+            <marker date="1509435672208" expanded="true" signature="359:433" ph="/*!40101 SET... " />
+            <marker date="1509435672208" expanded="true" signature="435:490" ph="/*!40111 SET... " />
+            <marker date="1509435672208" expanded="true" signature="508:532" ph="/*!32312 IF " />
+            <marker date="1509435672208" expanded="true" signature="546:584" ph="/*!40100 DEF... " />
+            <marker date="1509435672208" expanded="true" signature="607:644" ph="/*Table stru... " />
+            <marker date="1509435672208" expanded="true" signature="646:673" ph="DROP TABLE I... " />
+            <marker date="1509435672208" expanded="true" signature="676:797" ph="CREATE TABLE... user" />
+            <marker date="1509435672208" expanded="true" signature="800:830" ph="/*Data for t... " />
+            <marker date="1509435672208" expanded="true" signature="832:889" ph="insert into user" />
+            <marker date="1509435672208" expanded="true" signature="892:930" ph="/*!40101 SET... " />
+            <marker date="1509435672208" expanded="true" signature="932:990" ph="/*!40014 SET... " />
+            <marker date="1509435672208" expanded="true" signature="992:1040" ph="/*!40014 SET... " />
+            <marker date="1509435672208" expanded="true" signature="1042:1082" ph="/*!40111 SET... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/repository-maven/org/springframework/boot/spring-boot/1.5.4.RELEASE/spring-boot-1.5.4.RELEASE.jar!/org/springframework/boot/context/embedded/EmbeddedWebApplicationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/netinnet/nna/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>demo:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.36209336" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring (nin_springBoot_v1.0)|Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.36209336" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>react-DefinitelyTyped</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.36209336" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8.0_144</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.36209336" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>nin_springBoot_v1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.36209336" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.36209336" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.36209336" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.36209336" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,42 @@
+Manifest-Version: 1.0
+Class-Path: tiles-request-servlet-1.0.6.jar tiles-autotag-core-runtime
+ -1.1.0.jar logback-classic-1.1.11.jar druid-1.0.19.jar jackson-annota
+ tions-2.8.0.jar springfox-spi-2.6.1.jar swagger-annotations-1.5.10.ja
+ r fastjson-1.2.31.jar unbescape-1.1.0.RELEASE.jar spring-plugin-metad
+ ata-1.2.0.RELEASE.jar groovy-2.4.11.jar spring-jdbc-4.3.9.RELEASE.jar
+  spring-boot-starter-web-1.5.4.RELEASE.jar javassist-3.21.0-GA.jar th
+ ymeleaf-layout-dialect-1.4.0.jar tiles-request-jsp-1.0.6.jar jedis-2.
+ 9.0.jar spring-beans-4.3.9.RELEASE.jar spring-web-4.3.9.RELEASE.jar s
+ pring-boot-starter-logging-1.5.4.RELEASE.jar jstl-1.2.jar tools.jar t
+ omcat-juli-8.5.15.jar commons-digester-2.1.jar spring-data-redis-1.8.
+ 4.RELEASE.jar spring-boot-starter-jdbc-1.5.4.RELEASE.jar spring-webmv
+ c-4.3.9.RELEASE.jar jackson-core-2.8.8.jar logback-core-1.1.11.jar my
+ sql-connector-java-5.1.42.jar jboss-logging-3.3.1.Final.jar jconsole.
+ jar tiles-api-3.0.5.jar validation-api-1.1.0.Final.jar classmate-1.3.
+ 3.jar log4j-over-slf4j-1.7.25.jar springfox-schema-2.6.1.jar pagehelp
+ er-spring-boot-autoconfigure-1.1.0.jar spring-boot-starter-thymeleaf-
+ 1.5.4.RELEASE.jar spring-session-1.3.1.RELEASE.jar springfox-spring-w
+ eb-2.6.1.jar thymeleaf-spring4-2.1.5.RELEASE.jar tiles-request-api-1.
+ 0.6.jar pagehelper-spring-boot-starter-1.1.0.jar springfox-swagger-ui
+ -2.6.1.jar tomcat-jdbc-8.5.15.jar spring-data-keyvalue-1.2.4.RELEASE.
+ jar spring-oxm-4.3.9.RELEASE.jar mapstruct-1.0.0.Final.jar jcl-over-s
+ lf4j-1.7.25.jar spring-boot-starter-data-redis-1.5.4.RELEASE.jar spri
+ ngfox-core-2.6.1.jar javax.servlet-api-3.1.0.jar commons-lang3-3.3.ja
+ r spring-tx-4.3.9.RELEASE.jar commons-beanutils-1.9.3.jar spring-boot
+ -starter-1.5.4.RELEASE.jar mybatis-spring-boot-autoconfigure-1.3.0.ja
+ r spring-plugin-core-1.2.0.RELEASE.jar mybatis-3.4.4.jar slf4j-api-1.
+ 7.25.jar spring-boot-1.5.4.RELEASE.jar commons-pool2-2.4.2.jar spring
+ -context-4.3.9.RELEASE.jar jul-to-slf4j-1.7.25.jar spring-expression-
+ 4.3.9.RELEASE.jar spring-context-support-4.3.9.RELEASE.jar commons-co
+ llections-3.2.2.jar springfox-swagger-common-2.6.1.jar hibernate-vali
+ dator-5.3.5.Final.jar snakeyaml-1.17.jar tiles-servlet-3.0.5.jar jsql
+ parser-0.9.5.jar tiles-jsp-3.0.5.jar tiles-template-3.0.5.jar ognl-3.
+ 0.8.jar pagehelper-5.0.0.jar spring-core-4.3.9.RELEASE.jar guava-18.0
+ .jar springfox-swagger2-2.6.1.jar spring-data-commons-1.13.4.RELEASE.
+ jar thymeleaf-2.1.5.RELEASE.jar mybatis-spring-1.3.1.jar swagger-mode
+ ls-1.5.10.jar spring-aop-4.3.9.RELEASE.jar tiles-core-3.0.5.jar mybat
+ is-spring-boot-starter-1.3.0.jar spring-session-data-redis-1.3.1.RELE
+ ASE.jar jackson-databind-2.8.8.jar spring-boot-autoconfigure-1.5.4.RE
+ LEASE.jar
+Main-Class: cn.netinnet.nna.Application
+
