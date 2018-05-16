@@ -36,7 +36,7 @@ $(function(){
         multiselectWidth: 40, //设置多选列宽度
         multiboxonly: true,
         shrinkToFit:true, //此属性用来说明当初始化列宽度时候的计算类型，如果为ture，则按比例初始化列宽度。如果为false，则列宽度使用colModel指定的宽度
-        forceFit:true, //当为ture时，调整列宽度不会改变表格的宽度。当shrinkToFit为false时，此属性会被忽略
+        forceFit:true, //当为true时，调整列宽度不会改变表格的宽度。当shrinkToFit为false时，此属性会被忽略
         autowidth: true,
         loadComplete : function() {
             var table = this;
